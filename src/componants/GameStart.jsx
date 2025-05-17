@@ -25,17 +25,16 @@ export default function GameStart() {
         const correct = images[currentIndex]?.label;
 
 
-        if (userChoice === correct) {
+         if (userChoice === correct) {
             setScore(prev => prev + 1);
             setAlert({
-                type: "success", title: "Correct", message: "This message was Safe."
+                type: "success", title: "Correct", message: `This message was ${images[currentIndex]?.label}.`
             });
         } else {
             setAlert({
-                type: "danger", title: "Wrong", message: "This message is Fraud."
+                type: "danger", title: "Wrong", message: `This message was ${images[currentIndex]?.label}.`
             });
         }
-
         setTimeout(() => {
             setAlert(null);
 
