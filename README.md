@@ -23,7 +23,8 @@
 ##  Setup Instructions
 ```bash
 
-git clone https://github.com/username/swipe-to-spot.git
-cd swipe-to-spot
+git clone : https://github.com/Dileep9098/webImageGame
+
+cd webgame
 npm install
-npm start
+npm run dev
