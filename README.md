@@ -1,7 +1,7 @@
 #   Swipe to Spot – Catch The Fake Game 
 ##  Live Demo
 
- https://swipe-to-spot.web.app
+https://webimagegame.web.app/
 
 ##  Tech Stack
 - React 
