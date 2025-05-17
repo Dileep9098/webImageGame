@@ -25,6 +25,6 @@
 
 git clone : https://github.com/Dileep9098/webImageGame
 
-cd webgame
+cd webImageGame
 npm install
 npm run dev
