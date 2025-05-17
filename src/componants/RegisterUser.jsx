@@ -54,7 +54,7 @@ export default function RegisterUser() {
             setLoading(false)
 
 
-            showSuccessMgs("Registration Successful")
+            showSuccessMgs("Registration Successfully")
             navigate('/login')
 
         } catch (error) {
