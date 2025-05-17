@@ -26,7 +26,7 @@ export default function Login() {
 
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
-                showSuccessMgs("Login Successful ")
+                showSuccessMgs("Login Successfully")
                 navigate("/game-page")
                 setLoading(false)
             })
